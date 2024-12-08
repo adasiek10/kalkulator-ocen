@@ -28,6 +28,7 @@ body {
     padding: 1em;
     border: 0px;
     border-radius: 1em;
+    cursor: pointer;
 }
 
 input {
