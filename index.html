@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kalkulator ocen</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+    </head>
+    <body>
+        <div id="main">
+            <h1 id="title">Kalukator ocen</h1>
+
+            <p id="desc">
+                Wpisz liczbę zdobytych punktów i maksymalną liczbę punktów, a
+                program obliczy, ile to jest procent, i jaką ocenę dostaniesz
+            </p>
+
+            <label for="input1">Wpisz liczbę zdobytych punktów</label>
+            <br />
+            <input type="text" name="input1" id="input1" placeholder="np. 12" />
+            <br />
+            <br />
+
+            <label for="input2">Wpisz maksymalną liczbę punktów</label>
+            <br />
+            <input type="text" name="input2" id="input2" placeholder="np. 15" />
+            <br />
+            <br />
+
+            <button type="submit" id="submit">Oblicz</button>
+            <br />
+
+            <p id="procent"></p>
+            <p id="grade"></p>
+
+            <p id="author">
+                Made by
+                <a href="https://github.com/adasiek10" target="#blank"
+                    ><strong>Adasieqk</strong></a
+                >
+            </p>
+        </div>
+        <script src="index.js" defer></script>
+    </body>
+</html>
